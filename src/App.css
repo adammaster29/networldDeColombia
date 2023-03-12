@@ -16,6 +16,7 @@ body{
 --negro:black;
 --negroOpaco:#00000057;
 --gris:gray;
+--azulOpaco:rgba(31, 31, 233, 0.787);
 }
 
 
@@ -173,4 +174,43 @@ span{
     color: var(--blanco);
     font-weight: 900;
     font-size: 19px;
+}
+
+/*porque elegirnos*/
+.padre-porqueElegirnos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: var(--blanco);
+    border: 1px solid #000;
+  
+}
+.container-padretext-btn{
+    border: 1px solid #5fab07;
+    width: 50%;
+    
+}
+
+.container-btnElegirnos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid #9a1818;
+  width: 100%;
+  gap: 1rem;
+}
+.btn-text{
+    width: 210px;
+    height: 38px;
+    border: none;
+    background: none;
+    color: var(--gris);
+}
+.btn-text:hover{
+    border: 1px solid var(--gris);
+    color: var(--azulOpaco);
+}
+.btn-text:focus{
+    outline: none;
+  box-shadow: 0 0 5px blue;
 }
