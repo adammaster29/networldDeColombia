@@ -183,12 +183,16 @@ span{
     justify-content: space-around;
     background: var(--blanco);
     border: 1px solid #000;
+    height: auto;
   
 }
 .container-padretext-btn{
     border: 1px solid #5fab07;
-    width: 50%;
+    width: 55%;
     
+}
+.container-all{
+    background: var(--blanco);
 }
 
 .container-btnElegirnos{
@@ -197,7 +201,7 @@ span{
   justify-content: center;
   border: 1px solid #9a1818;
   width: 100%;
-  gap: 1rem;
+  gap: 2px;
 }
 .btn-text{
     width: 210px;
@@ -206,11 +210,31 @@ span{
     background: none;
     color: var(--gris);
 }
-.btn-text:hover{
+.btn-textC{
+    width: 100px;
+    height: 38px;
+    border: none;
+    background: none;
+    color: var(--gris);
+}
+.btn-textC:hover,.btn-text:hover{
     border: 1px solid var(--gris);
     color: var(--azulOpaco);
 }
-.btn-text:focus{
+.btn-textC:focus,.btn-text:focus{
     outline: none;
   box-shadow: 0 0 5px blue;
 }
+
+.mostrar-texto{
+    text-align: justify;
+    border: 1px solid #000;
+    height: auto;
+}
+ul .chulo:before {
+    content: "\2713";
+    color: rgb(16, 102, 148);
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 1px;
+  }
