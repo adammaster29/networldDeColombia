@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: fixed no-repeat url(/img/magangue.jpg);
+    background-size:contain ;
+    background-size: 100% 100%;
+    
+}
+:root{
+--blanco:white;
+--rojo:red;
+--rojoOpaco:rgba(255, 0, 0, 0.301);
+--negro:black;
+--negroOpaco:#00000057;
+--gris:gray;
+}
+
+
+/*seccion navegacion y carrusel*/
+img{
+    height: 500px;
+}
+
+.center-text{
+    border: 1px solid #409909;
+    width: 80%;
+    height: 300px;
+    margin-bottom: 50px;
+   
+}
+
+.Item{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.carousel{
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.navegador{
+    top: 0;
+  left: 0;
+   
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 5rem;
+    background:var(--negroOpaco);
+  margin: 0 auto;
+  z-index: 2;
+  color: var(--blanco);
+  position:fixed;
+}
+
+li a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+li{list-style-type: none;}
+.btn{
+    width: 100%;
+    border: 1px solid #000;
+   display: flex;
+   justify-content: center;
+}
+.button-carrusel{
+    width: 130px;
+    height: 40px;
+    border-radius: 12px;
+    background: var(--rojo);
+    border: 1px solid var(--blanco);
+    color: var(--blanco);
+    font-weight: 700;
+    margin-top: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.button-carrusel:hover{
+    background: none;
+    transform: translatey(-1em);
+}
+
+/*Acerca de nosotros*/
+.contenedor-padre-acerca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.containerAcerca{
+    background-color: var(--blanco);
+    margin-top: -4rem;
+}
+.img-acerca{
+    width: 40%;
+    margin-bottom: auto;
+    height:200px;
+    border: 1px solid #000;
+}
+.text-acerca{
+    width: 50%;
+    border: 1px solid #000;
+}
+.titulo{
+    text-align:center;
+    margin-top:4rem;
+   font-weight:900;
+   color: var(--rojo);
+   
+}
+.subtitulo{
+    color: var(--rojo);
+    font-weight: 600;
+}
+
+/*servicios*/
+
+.container_wrap{
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+   
+}
+.container-Servicios{
+    background-color: var(--blanco);
+    margin-top: -4rem;
+}
+.subtituloServicios{
+    color: var(--gris);
+    font-weight: 700;
+}
+.wrap{
+    
+    width: 300px;
+    text-align: justify;
+    padding: 1px;
+    transition: all 0.3s ease-in;
+    box-shadow: 2px 2px 3px 2px gray;
+}
+.wrap:hover{
+    transform: translateY(-0.5em);
+    box-shadow: 2px 2px 3px 2px var(--rojoOpaco);
+}
+
+/*progresso*/
+.container-progresso{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.progressoflex{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: var(--blanco);
+    font-weight: 900;
+    font-size: 19px;
+}

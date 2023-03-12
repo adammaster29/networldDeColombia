@@ -1,0 +1,26 @@
+
+/*progreso*/
+
+
+
+
+
+
+
+/*animaciones*/
+.animacion {
+    opacity: 0;
+    animation-name: aparecer;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
