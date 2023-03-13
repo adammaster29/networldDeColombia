@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 function PorqueElegirnos() {
 
-    const [showText, setShowText] = useState(false);
+    const [showText, setShowText] = useState(true);
     const [showText1, setShowText1] = useState(false);
     const [showText2, setShowText2] = useState(false);
     const [showText3, setShowText3] = useState(false);
@@ -41,11 +41,16 @@ function PorqueElegirnos() {
 
         <div className='padre-porqueElegirnos'>
             
-            <div>
-                <img src="/img/paquete internet.jpeg" alt="" />
+            <div className='hijo-padre'>
+                <img className='img-hijoPadre' src="/img/paquete internet.jpeg" alt="" />
                 <div>
-                    <button className='btn-text' onClick={() => setShowText3(!showText3)}>NETWORLD de Colombia S.A.S</button>
-                    {showText3 && <div className='textoizq-netbtn'>Este es el texto que se mostrará u ocultará</div>}
+
+                    <button className='btn-text1' onClick={() => setShowText3(!showText3)}>NETWORLD de Colombia S.A.S</button>
+
+                    {showText3 && <div className='textoizq-netbtn'>
+                        <img className='img-btn-redespq' src="/img/redesporquelegirnos.png" alt="" />
+                        <p><b style={{fontSize:"18px"}}>Somos una empresa con el más alto nivel tecnológico,</b> dedicada a la comercialización de servicios y productos del sector informático y de telecomunicaciones dentro de los más altos estándares de calidad, brindándole a nuestros clientes más que excelentes productos, un
+servicio técnico y profesional con calidad y eficiencia. .</p></div>}
                 </div>
 
             </div>
