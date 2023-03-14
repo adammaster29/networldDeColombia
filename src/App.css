@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: fixed no-repeat url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRBytdZzeMuucLMDj36nrQAISNXUYaH-qbHS-lvN7jn6hDriM7);
+  background: fixed no-repeat url('/img/magangue2.jpeg');
   background-size: cover;
   background-position: center;
   font-family: 'Raleway', sans-serif; 
@@ -321,9 +321,14 @@ font-weight: 700;
 }
 
 /*Equipo cards*/
-
+.padre-Equipo{
+  background-color: var(--blanco);
+  border: 1px solid #000;
+  height: auto;
+  }
 
 .container-cards{
+  border: 1px solid #ebc90e;
     display: flex;
   flex-direction: row;
     gap: 1rem;
@@ -331,7 +336,7 @@ font-weight: 700;
     margin-top: 3rem;
     /* align-items: center; */
     background-color: var(--blanco);
-    height: 600px;
+    height: 400px;
 }
 .card1{
     
@@ -432,9 +437,7 @@ overflow: hidden;
     font: 18px  raleway;
 }
 
-.padre-Equipo{
-background-color: var(--blanco);
-}
+
 
 .efecto{
  
@@ -449,6 +452,33 @@ justify-content: center;
   transform: translateY(9em);
 }
 
+/*portada Equipo*/
 
+.padre-portada{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: -49px;
+}
+.img-portada{
+  border: 1px solid #000;
+  width: 50%;
+  background:url('/img/portada-equipo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+.container-contactanos{
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  color: var(--blanco);
+  background-color: var(--negroOpaco);
+}
 
 
