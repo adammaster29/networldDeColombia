@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background: fixed no-repeat url(/img/magangue.jpg);
-  background-size: contain;
-  background-size: 100% 100%;
+  background: fixed no-repeat url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRBytdZzeMuucLMDj36nrQAISNXUYaH-qbHS-lvN7jn6hDriM7);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Raleway', sans-serif; 
+ 
 }
 :root {
   --blanco: white;
@@ -15,7 +18,12 @@ body {
   --negro: black;
   --negroOpaco: #00000057;
   --gris: gray;
-  --azulOpaco: rgba(31, 31, 233, 0.787);
+  --azulOpaco: #3b5998;
+  --negrotransparente:rgba(0, 0, 0, 0.586);
+  --azulReik:blue;
+  --naranjado:rgba(226, 86, 4, 0.911);
+  --blancoTransparente:rgba(255, 255, 255, 0.301);
+  --dorado: #755d15;
 }
 
 /*seccion navegacion y carrusel*/
@@ -141,7 +149,7 @@ li {
 /*servicios*/
 
 .container_wrap {
-  border: 1px solid #000;
+ 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -171,6 +179,7 @@ li {
 /*progresso*/
 .container-progresso {
   border: 1px solid #000;
+  background-color: var(--negrotransparente);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -269,3 +278,177 @@ width: 100%;
     margin: 0 auto;
     border: 1px solid #000;
 }
+
+/*Subscribete*/
+
+.padreSubscribete{
+height: 400px;
+display: flex;
+justify-content: center;
+background-color: var(--negrotransparente);
+}
+.Subscribete{
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+border: 1px solid #ffffff;
+width: 720px;
+font-family: 'Raleway', sans-serif; 
+}
+.btn-subscribete{
+    text-decoration:none;
+    border: 1px solid #e6e0e0;
+    width: 250px;
+    height: 40px;
+    border-radius: 12px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--blanco);
+   background-color: var(--azulOpaco);
+   margin-top: 1rem;
+   font-weight: 400;
+   font-size: 18px;
+}
+
+.btn-subscribete:hover{
+background: var(--blanco);
+color: var(--azulOpaco);
+font-weight: 700;
+}
+
+/*Equipo cards*/
+
+
+.container-cards{
+    display: flex;
+  flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 3rem;
+    /* align-items: center; */
+    background-color: var(--blanco);
+    height: 600px;
+}
+.card1{
+    
+    width: 200px;
+    height: 320px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 3px 2px gray;
+}
+
+
+
+.redes{
+background: #b8a7a78c;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+z-index: 2;
+
+}
+.redes:hover{
+    background: var(--negroOpaco);
+    opacity: 10;
+}
+/*iconos de rerdes*/
+.bxl-facebook-circle:hover{color:var(--azulReik);}
+.bxl-instagram:hover{color: var(--naranjado);}
+.bxl-twitter:hover{ color: var(--azulOpaco);
+
+}
+
+.bxl-facebook-circle{color:var(--dorado);}
+.bxl-instagram{color: var(--dorado);}
+.bxl-twitter{ color: var(--dorado);}
+
+/*imagenes del equipo*/
+
+.container-img-equipo-Jaider{
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    position: relative;
+    background-image: url('/img/jaiderr.png');
+background-position: center;
+background-size: cover;
+border-radius: 10px 10px 0 0 ;
+overflow: hidden;
+}
+.container-img-equipo-Eiber{
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    position: relative;
+    background-image: url('/img/eiber.png');
+background-position: center;
+background-size: cover;
+border-radius: 10px 10px 0 0 ;
+overflow: hidden;
+}
+
+.container-img-equipo-Willian{
+  width: 100%;
+  height: 250px;
+  z-index: 1;
+  position: relative;
+  background-image: url('/img/william.jpg');
+background-position: center;
+background-size: cover;
+border-radius: 10px 10px 0 0 ;
+overflow: hidden;
+}
+.container-img-equipo-Jhon{
+  width: 100%;
+  height: 250px;
+  z-index: 1;
+  position: relative;
+  background-image: url('/img/jhon.jpg');
+background-position: center;
+background-size: cover;
+border-radius: 10px 10px 0 0 ;
+overflow: hidden;
+}
+
+.img-equipo{
+    width: 100%;
+    height: 250px;
+}
+.tituloE{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2px;
+}
+.texto-ocupacion{
+    text-align: center;
+    font: 18px  raleway;
+}
+
+.padre-Equipo{
+background-color: var(--blanco);
+}
+
+.efecto{
+ 
+  width: 100%;
+  height: 250px;
+  transition: all 2.5s ease-in;
+display: flex;
+justify-content: center;
+}
+
+.efecto:hover{
+  transform: translateY(9em);
+}
+
+
+
+

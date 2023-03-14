@@ -6,6 +6,7 @@ const ProgresoCircular = () => {
     const [progress2, setProgress2] = useState(0);
 
   useEffect(() => {
+
     const intervalId = setInterval(() => {
       setProgress(prevProgress => {
         if (prevProgress >= 79) {
@@ -13,7 +14,7 @@ const ProgresoCircular = () => {
         }
         return prevProgress + 1;
       });
-    }, 50);
+    }, 200);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -26,7 +27,7 @@ useEffect(() => {
         }
         return prevProgress + 1;
       });
-    }, 50);
+    }, 200);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -40,7 +41,7 @@ useEffect(() => {
         }
         return prevProgress + 1;
       });
-    }, 50);
+    }, 200);
 
     return () => clearInterval(intervalId);
   }, []);
