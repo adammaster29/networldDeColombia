@@ -21,8 +21,8 @@ const Equipo = () => {
                             </div>
                         </div>
                     </div>
-                    <h5 className='tituloE'>Jaider Jimenez</h5>
-                    <p className='texto-ocupacion'>Seo</p>
+                    <h5 className='tituloE'>name</h5>
+                    <p className='texto-ocupacion'>ocupacion</p>
                 </div>
 
                 {/* cards 2 */}
@@ -40,8 +40,8 @@ const Equipo = () => {
                         </div>
 
                     </div>
-                    <h5 className='tituloE'>Eiber Pérez</h5>
-                    <p className='texto-ocupacion'>Técnico Áutomotriz</p>
+                    <h5 className='tituloE'>name</h5>
+                    <p className='texto-ocupacion'>ocupacion</p>
                 </div>
                 {/* cards 3 */}
                 <div className="card1">
@@ -58,8 +58,8 @@ const Equipo = () => {
                         </div>
 
                     </div>
-                    <h5 className='tituloE'>William Ortega</h5>
-                    <p className='texto-ocupacion'>Jefe de Laboratorio</p>
+                    <h5 className='tituloE'>name</h5>
+                    <p className='texto-ocupacion'>ocupacion</p>
                 </div>
                 {/* cards 4 */}
                 <div className="card1">
@@ -76,8 +76,8 @@ const Equipo = () => {
                         </div>
 
                     </div>
-                    <h5 className='tituloE'>Jhon Powel</h5>
-                    <p className='texto-ocupacion'>Seo Expert</p>
+                    <h5 className='tituloE'>name</h5>
+                    <p className='texto-ocupacion'>ocupacion</p>
                 </div>
 
             </div >

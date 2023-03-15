@@ -6,6 +6,7 @@ import Carrusel from './components/Carrusel'
 import Equipo from './components/Equipo'
 import Navegacion from './components/Navegacion'
 import PorqueElegirnos from './components/PorqueElegirnos'
+import Portafolio from './components/Portafolio'
 import ProgresoCircular from './components/ProgresoCircular'
 import Servicios from './components/Servicios'
 import Subscribete from './components/Subscribete'
@@ -13,10 +14,11 @@ import Subscribete from './components/Subscribete'
 
 
 function App() {
+ 
   
 
   return (
-    <div className="App">
+    <div  className={`App `} >
         
       <HashRouter>
         <Navegacion/>
@@ -31,6 +33,7 @@ function App() {
           <Route/>
         </Routes>
       </HashRouter>
+      <Portafolio/>
     </div>
   )
 }
