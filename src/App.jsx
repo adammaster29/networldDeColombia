@@ -1,7 +1,8 @@
 
-import { HashRouter, Route, Routes } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Acerca_de from './components/Acerca_de'
+import CarouselTexto from './components/CarouselTexto'
 import Carrusel from './components/Carrusel'
 import DescripcionServicios from './components/DescripcionServicios'
 import Equipo from './components/Equipo'
@@ -15,11 +16,20 @@ import Subscribete from './components/Subscribete'
 
 
 function App() {
- 
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false), 3000); // Simulación de carga
+  }, []);
   
 
   return (
-    <div  className={`App `} >
+    <>
+      {isLoading ? (
+
+       <div className='containerLoader'> <div className="loader"></div></div>
+      ) : (
+    <div  className='App' >
         <Navegacion/>
         <Carrusel/>
         <Acerca_de/>
@@ -30,7 +40,10 @@ function App() {
         <Equipo/>
       <Portafolio/>
       <DescripcionServicios/>
+      <CarouselTexto/>
     </div>
+    )}
+    </>
   )
 }
 

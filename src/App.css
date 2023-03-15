@@ -778,6 +778,7 @@ margin-top: -0.2rem;
   width: 450px;
   height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--gris);
@@ -799,10 +800,27 @@ td::before {
 justify-content: center;
 font-weight: 800;
 font-size: 18px;
-text-shadow: 2px 2px 2px  var(--negro), -2px -2px 2px var(--gris);
+text-shadow: 2px 2px 2px  var(--negro), -1px -10px 2px var(--azulOpaco);
 
 }
-
+.boton-consultanos{
+  border: 1px solid var(--gris);
+  width: 160px;
+  text-decoration: none;
+  border-radius: 12px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: var(--gris);
+  color: var(--blanco);
+  font-weight: 800;
+}
+.boton-consultanos:hover{
+  background: none;
+  color: var(--azulOpaco);
+  
+}
 /* 
 para el responsive
 
@@ -810,3 +828,61 @@ tr{
   display: flex;
   flex-direction: column;
 } */
+
+
+/*carousel texto*/
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: var(--negrotransparente);
+}
+
+.carousel-content {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+  
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: calc(100% / 3);
+  height: 100%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+
+
+/*pantalla de carga-*/
+.loader {
+  border: 16px solid #f3f3f3; /* Color de fondo */
+  border-top: 16px solid #3498db; /* Color de la animación */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  
+}
+.containerLoader{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 100vh;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
