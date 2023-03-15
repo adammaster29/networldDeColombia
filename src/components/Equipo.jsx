@@ -93,7 +93,7 @@ const Equipo = () => {
             <div className='container-contactanos'>
                 <h2 style={{fontSize:"18PX",fontWeight:"900"}}>NETWORLD DE COLOMBIA S.A.S</h2>
                 <p style={{fontSize:"18PX",fontWeight:"600"}}>CONTAMOS CON UN GRUPO DE PROFESIONALES ALTAMENTE CAPACITADOS.</p>
-                 <a href="">Contactános</a>
+                 <a className='boton-portada' href="#">Contactános</a>
             </div>
             
         </div>

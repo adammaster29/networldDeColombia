@@ -141,6 +141,7 @@ li {
   margin-top: 4rem;
   font-weight: 900;
   color: var(--rojo);
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5), -2px -2px 2px rgba(255,255,255,0.5);
 }
 .subtitulo {
   color: var(--rojo);
@@ -492,6 +493,23 @@ margin-top: -49px;
   color: var(--blanco);
   background-color: var(--negroOpaco);
 }
+.boton-portada{
+  text-decoration: none;
+  border: 1px solid var(--gris);
+  border-radius: 12px;
+  width: 150px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blanco);
+  font-weight: 700;
+  font-size: 18px;
+}
+.boton-portada:hover{
+  background-color: var(--azulOpaco);
+  color: var(--blanco);
+}
 
 
 /* portafolio */
@@ -723,19 +741,72 @@ margin-top: -0.2rem;
 }
 
 .boton-portafolio{
-  border: 1px solid gray;
+  border: 1px solid var(--gris);
   background: none;
   height: 30px;
   border-radius: 12px;
+  font-weight: 600;
 }
 
 .boton-portafolio:hover{
-  background-color: aqua;
+  background-color: var(--azulOpaco);
+  color: var(--blanco);
 }
-.boton-portafolio:active{
-  background-color: aqua;
-}
+
 .flex-btn{
   background: var(--blanco);
   padding: 1rem;
+  border: 1px solid #000;
 }
+
+
+
+/*descripcion*/
+
+.padre-descripcion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  height: auto;
+  background-color: var(--blanco);
+  
+}
+
+.contenedor-tabla{
+  width: 450px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gris);
+  font-weight: 700;
+  padding: 1rem;
+  background: var(--blanco);
+  margin-top: 50px;
+  box-shadow: 2px 2px 2px var(--gris), -2px -2px 2px var(--rojoOpaco);
+}
+td::before {
+  content: "\2713"; /* símbolo de check */
+  display: inline-block;
+  margin-right: 5px;
+  color: var(--azulOpaco);
+  font-weight: bold;
+}
+.texto-titulo{
+  display: flex;
+justify-content: center;
+font-weight: 800;
+font-size: 18px;
+text-shadow: 2px 2px 2px  var(--negro), -2px -2px 2px var(--gris);
+
+}
+
+/* 
+para el responsive
+
+tr{
+  display: flex;
+  flex-direction: column;
+} */

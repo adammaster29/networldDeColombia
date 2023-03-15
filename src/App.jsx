@@ -3,6 +3,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Acerca_de from './components/Acerca_de'
 import Carrusel from './components/Carrusel'
+import DescripcionServicios from './components/DescripcionServicios'
 import Equipo from './components/Equipo'
 import Navegacion from './components/Navegacion'
 import PorqueElegirnos from './components/PorqueElegirnos'
@@ -19,8 +20,6 @@ function App() {
 
   return (
     <div  className={`App `} >
-        
-      <HashRouter>
         <Navegacion/>
         <Carrusel/>
         <Acerca_de/>
@@ -29,11 +28,8 @@ function App() {
         <PorqueElegirnos/>
         <Subscribete/>
         <Equipo/>
-        <Routes>
-          <Route/>
-        </Routes>
-      </HashRouter>
       <Portafolio/>
+      <DescripcionServicios/>
     </div>
   )
 }

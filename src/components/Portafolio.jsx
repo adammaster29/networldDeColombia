@@ -113,9 +113,9 @@ const Portafolio = () => {
         <div className="flex-btn">
              <h1 className="titulo">Nuestro Portafolio</h1>
             <div className='container-boton'>           
-                <button className='boton-portafolio' onClick={handleShowContainerOne}>Todos</button>
-                <button className='boton-portafolio' onClick={handleShowContainerTwo}>Diseño web</button>
-                <button className='boton-portafolio' onClick={handleShowContainerThree}>Televison Por Cable</button>
+                <button className='boton-portafolio todos' onClick={handleShowContainerOne}>Todos</button>
+                <button className='boton-portafolio Diseño' onClick={handleShowContainerTwo}>Diseño web</button>
+                <button className='boton-portafolio Television' onClick={handleShowContainerThree}>Televison Por Cable</button>
             </div>
             {showContainerOne && <ContainerOne />}
             {showContainerTwo && <ContainerTwo />}
