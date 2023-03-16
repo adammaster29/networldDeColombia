@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 function PorqueElegirnos() {
 
-    const [showText, setShowText] = useState(true);
+    const [showText, setShowText] = useState(false);
     const [showText1, setShowText1] = useState(false);
     const [showText2, setShowText2] = useState(false);
     const [showText3, setShowText3] = useState(false);

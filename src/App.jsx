@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Acerca_de from './components/Acerca_de'
+import BeneficioDeCliente from './components/BeneficioDeCliente'
 import CarouselTexto from './components/CarouselTexto'
 import Carrusel from './components/Carrusel'
 import DescripcionServicios from './components/DescripcionServicios'
@@ -41,6 +42,8 @@ function App() {
       <Portafolio/>
       <DescripcionServicios/>
       <CarouselTexto/>
+      <BeneficioDeCliente/>
+    
     </div>
     )}
     </>

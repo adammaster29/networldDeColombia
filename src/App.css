@@ -886,3 +886,80 @@ tr{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+/*BeneficiosCliente*/
+.containerpadre{
+  background: var(--blanco);
+  height: auto;
+
+}
+.containerPadreCards{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 7px;
+height: 500px;
+}
+.containerCard{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid #54ce0d;
+}
+.img-cards{
+  width: 100%;
+  height: 200px;
+ 
+}
+.containerCotizacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--azulOpaco);
+  color: var(--blanco);
+  height: 150px;
+}
+.btnCotizar{
+  text-decoration: none;
+  color: var(--azulOpaco);
+  background: var(--blanco);
+  border: 1px solid var(--blanco);
+  border-radius: 12px;
+  width: 220px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 16px;
+  margin-top: 1rem;
+
+}
+.btnCotizar:hover{
+  background: none;
+  color: var(--blanco);
+}
+
+/*contactos*/
+.containerPadreConctactos{
+  background: var(--blanco);
+}
+
+.containerGrid{
+  display: grid;
+  grid-template-areas: 
+       " uno dos tres"
+   "cuatro cuatro cinco ";
+}
+.grid{
+  border: 1px solid #000;
+}
+.uno{grid-area: uno;}
+.dos{grid-area: dos;}
+.tres{grid-area: tres;}
+.cuatro{grid-area: cuatro;}
+.cinco{grid-area: cinco;}
