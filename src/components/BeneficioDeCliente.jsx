@@ -3,7 +3,7 @@ import React from 'react';
 const BeneficioDeCliente = () => {
     return (
         <div className='containerpadre'>  <br />
-         <h1 className="titulo">Trabajamos En Beneficio De Nuestros Clientes</h1><br /><br />
+         <h1 id='cliente' className="titulo">Trabajamos En Beneficio De Nuestros Clientes</h1><br /><br />
             <div className='containerPadreCards'>
               
                 <div className="containerCard">
@@ -27,7 +27,7 @@ const BeneficioDeCliente = () => {
                 
             </div>
             <div className="containerCotizacion">
-                    <h3>Bienvenidos a nuestra empresa NETWORLD DE COLOMBIA S.A.S</h3>
+                    <h3>Bienvenidos a Nuestra Empresa NETWORLD DE COLOMBIA S.A.S</h3>
                     <a className='btnCotizar' href="mailto:adammaster29@gmail.com?subject=Servicios De Cotizacion">Consigue Una Cotizacion</a>
                 </div>
         </div>

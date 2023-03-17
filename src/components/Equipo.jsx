@@ -5,7 +5,7 @@ const Equipo = () => {
         <div> 
         <div className='padre-Equipo'>
             <br />
-            <h1 className='titulo'>Nuestro Equipo</h1>
+            <h1 id='equipo' className='titulo'>Nuestro Equipo</h1>
             <div className='container-cards'>
                 {/* cards 1 */}
                 <div className="card1">
@@ -14,9 +14,9 @@ const Equipo = () => {
                         <div className='redes'>
                             <div className='efecto'>
                                 <div>
-                                    <i className='bx bxl-facebook-circle bx-tada bx-md' ></i>
-                                    <i className='bx bxl-instagram bx-tada bx-md' ></i>
-                                    <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md' ></i>
+                                   <a href="#" className='iconRedes' target='_blank'> <i className='bx bxl-facebook-circle bx-tada bx-md' ></i></a>
+                                   <a href="#" className='iconRedes' target='_blank'>  <i className='bx bxl-instagram bx-tada bx-md' ></i></a>
+                                   <a href="#" className='iconRedes' target='_blank'> <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md' ></i></a>
                                 </div>
                             </div>
                         </div>
@@ -32,9 +32,9 @@ const Equipo = () => {
                         <div className='redes'>
                             <div className='efecto'>
                                 <div>
-                                    <i className='bx bxl-facebook-circle bx-tada bx-md' ></i>
-                                    <i className='bx bxl-instagram bx-tada bx-md' ></i>
-                                    <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md' ></i>
+                                   <a href="#" className='iconRedes' target='_blank'></a> <i className='bx bxl-facebook-circle bx-tada bx-md' ></i>
+                                  <a href="#" className='iconRedes'  target='_blank'>  <i className='bx bxl-instagram bx-tada bx-md' ></i></a>
+                                   <a href="#" className='iconRedes' target='_blank' > <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md' ></i></a>
                                 </div>
                             </div>
                         </div>
@@ -50,9 +50,9 @@ const Equipo = () => {
                         <div className='redes'>
                             <div className='efecto'>
                                 <div>
-                                    <i className='bx bxl-facebook-circle bx-tada bx-md  ' ></i>
-                                    <i className='bx bxl-instagram bx-tada bx-md  ' ></i>
-                                    <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md  ' ></i>
+                                    <a href="#" className='iconRedes'  target='_blank'><i className='bx bxl-facebook-circle bx-tada bx-md  ' ></i></a>
+                                    <a href="#" className='iconRedes'  target='_blank'><i className='bx bxl-instagram bx-tada bx-md  ' ></i></a>
+                                   <a href="#" className='iconRedes'  target='_blank'> <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md  ' ></i></a>
                                 </div>
                             </div>
                         </div>
@@ -68,9 +68,9 @@ const Equipo = () => {
                         <div className='redes'>
                             <div className='efecto'>
                                 <div>
-                                    <i className='bx bxl-facebook-circle bx-tada bx-md' ></i>
-                                    <i className='bx bxl-instagram bx-tada bx-md' ></i>
-                                    <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md' ></i>
+                                   <a href="#" className='iconRedes' target='_blank'> <i className='bx bxl-facebook-circle bx-tada bx-md' ></i></a>
+                                  <a href="#" className='iconRedes' target='_blank'>   <i className='bx bxl-instagram bx-tada bx-md' ></i></a>
+                                   <a href="#" className='iconRedes'  target='_blank'> <i className='bx bxl-twitter bx-flip-horizontal bx-tada bx-md' ></i></a>
                                 </div>
                             </div>
                         </div>

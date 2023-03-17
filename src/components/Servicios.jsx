@@ -3,7 +3,7 @@ import React from 'react';
 const Servicios = () => {
     return (
         <div className='container-Servicios'><br />
-            <h1 className='titulo' >Nuestros Servicios</h1>
+            <h1 id='servicios' className='titulo' >Nuestros Servicios</h1>
 
 
             <div className="container_wrap">

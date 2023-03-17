@@ -5,6 +5,7 @@ import Acerca_de from './components/Acerca_de'
 import BeneficioDeCliente from './components/BeneficioDeCliente'
 import CarouselTexto from './components/CarouselTexto'
 import Carrusel from './components/Carrusel'
+import Contactos from './components/Contactos'
 import DescripcionServicios from './components/DescripcionServicios'
 import Equipo from './components/Equipo'
 import Navegacion from './components/Navegacion'
@@ -43,7 +44,7 @@ function App() {
       <DescripcionServicios/>
       <CarouselTexto/>
       <BeneficioDeCliente/>
-    
+    <Contactos/>
     </div>
     )}
     </>
