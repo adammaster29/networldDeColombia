@@ -21,3 +21,29 @@
       opacity: 1;
     }
   }
+
+
+
+
+
+  /*media querys Responsive*/
+  @media screen and (max-width:768px) {
+    /*carrusel*/
+    .imgCarrusel{
+      height: 300px;
+      
+    }
+    .center-text {
+      border: 1px solid #de16a5;
+      width: 650px;
+      height: 300px;
+      margin-left: -61px;
+    }
+    .TituloCarrusel{
+      font-size: 18px;
+    }
+    .button-carrusel{
+      width: 100px;
+      font-size: 15px;
+    }
+  }
