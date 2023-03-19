@@ -155,13 +155,7 @@ nav {
 .imgCarrusel{
   height: 500px;
 }
-/*corousel*/
-.center-text {
-  border: 1px solid #de16a5;
-  width: 850px;
-  height: 300px;
-  margin-left: -73px;
-}
+
 .btnB {
   border: 1px solid #000;
   display: flex;
@@ -205,9 +199,7 @@ nav {
   transition: all 0.5s ease-in;
   margin: 10px;
 }
-.mg {
-  margin-top: 15px;
-}
+
 
 .button-carrusel:hover {
   background: none;
@@ -279,25 +271,68 @@ nav {
   box-shadow: 2px 2px 3px 2px var(--rojoOpaco);
 }
 
+
 /*progresso*/
-.container-progresso {
-  border: 1px solid #000;
-  background-color: var(--negrotransparente);
+
+
+.containerFather{
+  border: 1px solid #810d4d44;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 300px;
-  overflow: hidden;
+ height: 250px;
 }
-.progressoflex {
+
+
+.circular-progress-container {
+  width: 100px;
+  height: 100px;
+  position: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #000;
 }
-span {
-  color: var(--blanco);
-  font-weight: 900;
-  font-size: 19px;
+
+.circular-progress {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  
 }
+
+.circular-progress-fill {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #000;
+  clip: rect(0, 40px, 80px, 0);
+  background-color: var(--azulOpaco);
+ }
+
+.circular-progress-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0, 80px, 80px, 40px);
+  background-color: var(--verde);
+}
+
+.circular-progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight:900;
+  color: #ffffff;
+}
+
+
+
 
 /*porque elegirnos*/
 .padre-porqueElegirnos {
@@ -314,6 +349,7 @@ span {
 }
 .container-all {
   background: var(--blanco);
+
 }
 
 .container-btnElegirnos {
@@ -434,16 +470,25 @@ background: var(--blanco);
 color: var(--azulOpaco);
 font-weight: 700;
 }
+.titulo-subscribir{
+font-size: 35px;
+font-weight: 900;
+}
+.text-subscribir{
+  font-weight: 700;
+  font-size: 18px;
+}
 
 /*Equipo cards*/
 .padre-Equipo{
   background-color: var(--blanco);
-  border: 1px solid #000;
+  border: 1px solid #910e0e;
   height: auto;
+  overflow: hidden;
   }
 
 .container-cards{
-  border: 1px solid #ebc90e;
+  border: 1px solid #0b9128;
     display: flex;
   flex-direction: row;
     gap: 1rem;
@@ -455,7 +500,7 @@ font-weight: 700;
 }
 .card1{
     
-    width: 200px;
+    width: 250px;
     height: 320px;
    border-radius: 10px;
    box-shadow: 2px 2px 3px 2px gray;
@@ -612,6 +657,12 @@ margin-top: -49px;
   background-color: var(--azulOpaco);
   color: var(--blanco);
 }
+.tituloPortada{font-size:18px;
+  font-weight: 900;}
+  .subtituloPortada{font-size:18px;
+  font-weight: 700;}
+  
+    
 
 
 /* portafolio */
@@ -957,9 +1008,9 @@ tr{
   width: calc(100% / 3);
   height: 100%;
   font-size: 20px;
-  color: #fff;
+  color: var(--blanco);
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
 
 }
 
@@ -995,7 +1046,7 @@ tr{
 .containerpadre{
   background: var(--blanco);
   height: auto;
-
+overflow: hidden;
 }
 .containerPadreCards{
 display: flex;
@@ -1010,13 +1061,27 @@ height: 500px;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  border: 1px solid #54ce0d;
+box-shadow: 2px 2px 2px var(--gris), -2px -2px 2px var(--blanco);
+ background-color: var(--azulOpaco);
+ color: var(--blanco);
 }
+
+.cards1{ 
+  transform: skew(20deg);
+}
+.cards1:hover{ 
+  transform: skew(0deg);
+}
+.cards2:hover{z-index: 2; }
+
+.cards3{   transform: skew(-25deg);}
+.cards3:hover{  transform: skew(0deg);}
 .img-cards{
   width: 100%;
   height: 200px;
  
 }
+/*cotizacion*/
 .containerCotizacion{
   display: flex;
   justify-content: center;
@@ -1175,3 +1240,5 @@ background: #c9e7eb4f;
   font-size: 30px;
  
 }
+.NRojo{  color: var(--rojo);
+  font-size: 18px;}

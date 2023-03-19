@@ -84,7 +84,7 @@ const Contactos = () => {
                     <i class='bx bx-copyright' ></i>
                       <p>Copyright</p> 
 
-                    <b>Networld De Colombia.</b>
+                    <b> <span className='span-N NRojo'>N</span>etworld De Colombia.</b>
 
                     <p>Todos los derechos Reservados.</p>
                 </div>

@@ -6,7 +6,6 @@ const Carrusel = () => {
 
   return (
 
-    // interval='1400'
     
     <Carousel className='carousel' fade  >
       
@@ -21,7 +20,7 @@ const Carrusel = () => {
           <h3 className='animacion mx-auto text-justify display-6 fw-bold' > NETWORLD DE COLOMBIA S.A.S</h3>
           <h3 className='animacion mx-auto text-break fw-bold'  >En La Vanguardia De La Tecnología.</h3>
           {/* <div className='btnB ' ></div> */}<br /><br />
-          <button  className='button-carrusel animacion mg' >Ver Servicios</button> <button className='button-carrusel animacion mg'>Leer Mas</button>
+          <button  className='button-carrusel animacion ' >Ver Servicios</button> <button className='button-carrusel animacion mg'>Leer Mas</button>
         </Carousel.Caption>
    
       </Carousel.Item>
@@ -37,7 +36,7 @@ const Carrusel = () => {
           <h3 className='animacion mx-auto text-justify display-6 fw-bold' > NETWORLD DE COLOMBIA S.A.S</h3>
           <h3 className='animacion mx-auto text-break fw-bold' >En La Vanguardia De La Tecnología.</h3>
           {/* <div className='btnB '></div> */} <br /><br />
-          <button  className='button-carrusel animacion mg' >Ver Servicios</button> <button className='button-carrusel animacion mg'>Leer Mas</button>
+          <button  className='button-carrusel animacion ' >Ver Servicios</button> <button className='button-carrusel animacion mg'>Leer Mas</button>
         </Carousel.Caption>
         
       </Carousel.Item>

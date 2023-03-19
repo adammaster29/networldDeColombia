@@ -91,9 +91,9 @@ const Equipo = () => {
         <div className="padre-portada">
             <div className='img-portada'></div>
             <div className='container-contactanos'>
-                <h2 style={{fontSize:"18PX",fontWeight:"900"}}>NETWORLD DE COLOMBIA S.A.S</h2>
-                <p style={{fontSize:"18PX",fontWeight:"600"}}>CONTAMOS CON UN GRUPO DE PROFESIONALES ALTAMENTE CAPACITADOS.</p>
-                 <a className='boton-portada' href="#">Contactános</a>
+                <h2 className='tituloPortada' > <span className='span-N'>N</span>ETWORLD DE COLOMBIA S.A.S</h2>
+                <p className='subtituloPortada' >CONTAMOS CON UN GRUPO DE PROFESIONALES ALTAMENTE CAPACITADOS.</p>
+                 <a className='boton-portada' href="mailto:adammaster29@gmail.com">Contactános</a>
             </div>
             
         </div>
