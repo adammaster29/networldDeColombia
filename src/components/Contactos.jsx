@@ -82,11 +82,11 @@ const Contactos = () => {
                 <div className='DerechosReservados'>
 
                     <i class='bx bx-copyright' ></i>
-                      <p>Copyright</p> 
+                   
 
-                    <b> <span className='span-N NRojo'>N</span>etworld De Colombia.</b>
+                    <b> <span className=' NRojo'>N</span>etworld De Colombia.</b>
 
-                    <p>Todos los derechos Reservados.</p>
+                    <p className='txt'>Todos los derechos Reservados.</p>
                 </div>
             </div>
         </div>

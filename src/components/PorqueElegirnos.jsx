@@ -66,7 +66,7 @@ servicio técnico y profesional con calidad y eficiencia. .</p></div>}
                 </div>
 
 
-                {showText && mostrarTexto1 && <div className='mostrar-texto'><h2>Razones Para Estar Con CORPOTELSA</h2><ul>
+                {showText && mostrarTexto1 && <div className='mostrar-texto'><h2 className='subtitulo'>Razones Para Estar Con CORPOTELSA</h2><ul>
                     <li className='chulo'>Cobertura del servicio en cualquier punto.</li><br />
                     <li className='chulo'>Instalación oportuna de los paquetes de servicios para disfrutarlos inmediatamente.</li><br />
                     <li className='chulo'>Respaldo del mejor y más capacitado equipo humano para el soporte técnico que garantizan la continuidad y calidad del servicio.</li><br />

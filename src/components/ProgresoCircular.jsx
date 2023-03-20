@@ -15,7 +15,7 @@ function ProgresoCircular() {
         }
         return prevProgress + 10;
       });
-    }, 1000);
+    }, 2000);
     return () => clearInterval(intervalId);
   }, []);
 /**progreso 1*/
@@ -28,7 +28,7 @@ useEffect(() => {
       }
       return prevProgress + 10;
     });
-  }, 1000);
+  }, 2000);
   return () => clearInterval(intervalId);
 }, []);
 
@@ -42,7 +42,7 @@ useEffect(() => {
       }
       return prevProgress + 10;
     });
-  }, 1000);
+  }, 2000);
   return () => clearInterval(intervalId);
 }, []);
 

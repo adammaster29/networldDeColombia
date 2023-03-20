@@ -39,12 +39,13 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #00000091;
+  background-color: var(--negroOpaco);
   color: #fff;
   padding: 1rem;
   position: fixed;
   width: 100%;
   z-index: 100;
+  height: 120px;
 }
 
 .logo {
@@ -60,6 +61,8 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
+font-weight: 800;
+  margin-top: -2rem;
 }
 
 .menu li {
@@ -276,7 +279,7 @@ nav {
 
 
 .containerFather{
-  border: 1px solid #810d4d44;
+  border: 1px solid #23ceb7fd;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -285,20 +288,21 @@ nav {
 
 
 .circular-progress-container {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  border: 1px solid #000;
+  border: 1px solid #20ca0a;
 }
 
 .circular-progress {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   position: relative;
+  
   
 }
 
@@ -307,8 +311,7 @@ nav {
   height: 100%;
   position: absolute;
   border-radius: 50%;
-  border: 1px solid #000;
-  clip: rect(0, 40px, 80px, 0);
+  clip: rect(0, 50px, 100px, 0);
   background-color: var(--azulOpaco);
  }
 
@@ -317,8 +320,9 @@ nav {
   height: 100%;
   position: absolute;
   border-radius: 50%;
-  clip: rect(0, 80px, 80px, 40px);
+  clip: rect(0, 100px, 100px, 40px);
   background-color: var(--verde);
+  border: 1px solid #ffffff;
 }
 
 .circular-progress-text {
@@ -386,9 +390,15 @@ nav {
 }
 
 .mostrar-texto {
+  
+  padding: 5px;
   text-align: justify;
-  border: 1px solid #000;
   height: auto;
+
+}
+.subtitulo{
+  text-align: center;
+  text-shadow: 2px 2px 2px var(--azulOpaco), -2px -2px 12px var(--dorado);
 }
 ul .chulo:before {
   content: "\2713";
@@ -396,6 +406,9 @@ ul .chulo:before {
   font-weight: bold;
   margin-right: 5px;
   padding: 1px;
+}
+.chulo{
+  list-style: none;
 }
 .hijo-padre {
   width: 45%;
@@ -975,13 +988,7 @@ text-shadow: 2px 2px 2px  var(--negro), -1px -10px 2px var(--azulOpaco);
   color: var(--azulOpaco);
   
 }
-/* 
-para el responsive
 
-tr{
-  display: flex;
-  flex-direction: column;
-} */
 
 
 /*carousel texto*/
@@ -1056,7 +1063,8 @@ gap: 7px;
 height: 500px;
 }
 .containerCard{
-  width: 300px;
+  width: 250px;
+  height: 300px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -1078,14 +1086,15 @@ box-shadow: 2px 2px 2px var(--gris), -2px -2px 2px var(--blanco);
 .cards3:hover{  transform: skew(0deg);}
 .img-cards{
   width: 100%;
-  height: 200px;
- 
+  height: 160px;
+ margin-bottom:auto ;
 }
 /*cotizacion*/
 .containerCotizacion{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   background: var(--azulOpaco);
   color: var(--blanco);
@@ -1207,13 +1216,12 @@ border: 1px solid #000;
 background: #c9e7eb23;
 }
 .cajaBox{
-
   width: 350px;
 margin: 1rem;
 margin-top: 5rem;
 }
 
-/*derechos eservados*/
+/*derechos reservados*/
 .ContainerDerechosReservados{
   border: 1px solid #000;
   display: flex;
@@ -1242,3 +1250,4 @@ background: #c9e7eb4f;
 }
 .NRojo{  color: var(--rojo);
   font-size: 18px;}
+  .txt{margin-top: 2px;}

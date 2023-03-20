@@ -8,24 +8,25 @@ const BeneficioDeCliente = () => {
               
                 <div className="containerCard cards1">
                     <img className='img-cards' src="https://img.freepik.com/foto-gratis/negocios-reunion-plan-analisis-grafico-empresa-estrategia-financiera_74952-1347.jpg?w=2000" alt="" />
-                    <h5>titulo</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, adipisci quod ipsum quidem vitae architecto ab, ipsa, atque aliquid earum expedita. At quasi tenetur expedita hic animi placeat voluptatibus inventore.</p>
+                    <h5 className='textoUp'>titulo</h5>
+                    <p className='textoUp'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
                 <div className="containerCard cards2">
-                    <img className='img-cards' src="https://static.vecteezy.com/system/resources/thumbnails/007/389/853/small/co-working-business-team-consulting-meeting-planning-strategy-and-brainstorming-new-business-project-free-photo.jpg" alt="" />
-                    <h5>titulo</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias neque, harum pariatur quis illo maiores ipsum, fugit inventore odit placeat ad voluptates dolor numquam impedit. Ex assumenda ut natus commodi.</p>
+                    <img className='img-cards' src="https://img.freepik.com/foto-gratis/negocios-reunion-plan-analisis-grafico-empresa-estrategia-financiera_74952-1347.jpg?w=2000" alt="" />
+                    <h5 className='textoUp'>titulo</h5>
+                    <p className='textoUp'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
                 <div className="containerCard cards3">
-                    <img className='img-cards' src="https://img.freepik.com/foto-gratis/colegas-dando-golpe-puno_53876-64857.jpg" alt="" />
-                    <h5>titulo</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti saepe alias quaerat sint beatae voluptatibus natus rem ea ex provident cum ipsum, esse exercitationem libero illo. Sapiente sit vero nulla!</p>
+                    <img className='img-cards' src="https://img.freepik.com/foto-gratis/negocios-reunion-plan-analisis-grafico-empresa-estrategia-financiera_74952-1347.jpg?w=2000" alt="" />
+                    <h5 className='textoUp'>titulo</h5>
+                    <p className='textoUp'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
            </div>
 
             <div>
                 
             </div>
+            <br />
             <div className="containerCotizacion">
                     <h3>Bienvenidos a Nuestra Empresa NETWORLD DE COLOMBIA S.A.S</h3>
                     <a className='btnCotizar' href="mailto:adammaster29@gmail.com?subject=Servicios De Cotizacion">Consigue Una Cotizacion</a>
