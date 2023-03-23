@@ -13,7 +13,7 @@ const DescripcionServicios = () => {
 
                     </thead>
                     <tbody  >
-                        <p className='texto-titulo'>NETWORLD DE COLOMBIA</p>
+                        <p className='notranslate texto-titulo'>NETWORLD DE COLOMBIA</p>
                         <tr>
                             <td >Mantenimiento de Redes</td>
                             <td>Creación y Diseño WEB</td>

@@ -37,61 +37,61 @@ function PorqueElegirnos() {
 
     return (
         <div className='container-all'> <br />
-            <h1 className='titulo'>Por Que Elegirnos</h1><br />
+            <h1 className='notransalate titulo'>Por Que Elegirnos</h1><br />
 
-        <div className='padre-porqueElegirnos'>
-            
-            <div className='hijo-padre'>
-                <img className='img-hijoPadre' src="/img/paquete internet.jpeg" alt="" />
-                <div>
+            <div className='padre-porqueElegirnos'>
 
-                    <button className='btn-text1' onClick={() => setShowText3(!showText3)}>NETWORLD de Colombia S.A.S</button>
+                <div className='hijo-padre'>
+                    <img className='img-hijoPadre' src="/img/paquete internet.jpeg" alt="" />
+                    <div>
 
-                    {showText3 && <div className='textoizq-netbtn'>
-                        <img className='img-btn-redespq' src="/img/redesporquelegirnos.png" alt="" />
-                        <p><b style={{fontSize:"18px"}}>Somos una empresa con el más alto nivel tecnológico,</b> dedicada a la comercialización de servicios y productos del sector informático y de telecomunicaciones dentro de los más altos estándares de calidad, brindándole a nuestros clientes más que excelentes productos, un
-servicio técnico y profesional con calidad y eficiencia. .</p></div>}
-                </div>
+                        <button className='notranslate btn-text1' onClick={() => setShowText3(!showText3)}>NETWORLD de Colombia S.A.S</button>
 
-            </div>
+                        {showText3 && <div className='textoizq-netbtn'>
+                            <img className='img-btn-redespq' src="/img/redesporquelegirnos.png" alt="" />
+                            <p><b style={{ fontSize: "18px" }}>Somos una empresa con el más alto nivel tecnológico,</b> dedicada a la comercialización de servicios y productos del sector informático y de telecomunicaciones dentro de los más altos estándares de calidad, brindándole a nuestros clientes más que excelentes productos, un
+                                servicio técnico y profesional con calidad y eficiencia. .</p></div>}
+                    </div>
 
-
-
-
-            <div className='container-padretext-btn'>
-                <div className='container-btnElegirnos'>
-                    <button className='btn-text' onClick={handleClickBoton1}>Television por Suscripcion</button>
-                    <button className='btn-textC' onClick={handleClickBoton2}>Corpotelsa</button>
-                    <button className='btn-textC' onClick={handleClickBoton3}>planes</button>
                 </div>
 
 
-                {showText && mostrarTexto1 && <div className='mostrar-texto'><h2 className='subtitulo'>Razones Para Estar Con CORPOTELSA</h2><ul>
-                    <li className='chulo'>Cobertura del servicio en cualquier punto.</li><br />
-                    <li className='chulo'>Instalación oportuna de los paquetes de servicios para disfrutarlos inmediatamente.</li><br />
-                    <li className='chulo'>Respaldo del mejor y más capacitado equipo humano para el soporte técnico que garantizan la continuidad y calidad del servicio.</li><br />
-                    <li className='chulo'>Con la fortaleza de diversas plataformas tecnológicas de Nueva Generación (TV, Telefonía IP, Banda ancha inalámbrica) generamos soluciones integrales de telecomunicaciones para los sectores residencial, comercial y empresarial.</li><br />
-                    <li className='chulo'>Brindamos acceso a múltiples servicios de telefonía fija e IP, Televisión por cable e Internet de alta velocidad por medio de Cable Modem y ADSL.</li><br />
-                    <li className='chulo'>Utilización de redes convergentes, en cobre, inalámbrica y HFC (Híbrido fibra óptica y coaxial) con la garantía de conectividad de todos los servicios.</li><br />
-                    <li className='chulo'>Garantía permanente de la conexión sin interrupción de los servicios de telefonía, televisión e internet con la velocidad de transmisión solicitada.</li><br />
-                </ul>
-                </div>}
-                {showText1 && mostrarTexto2 && <div className='mostrar-texto'>Qué esperas para vivir una nueva experiencia en entretenimiento?</div>}
-                {showText2 && mostrarTexto3 && <div className='mostrar-texto'> <h5>Planes</h5>
-                    <p>Elige el plan que se ajuste a tus necesidades y accede a la mejor programación con <span>CORPOTELSA.</span></p>
 
-                    <p>Servicio de internet operado por <span>SENERGITEL</span></p>
 
-                    <span>Llama ya al +57 (300) 317-2840 y adquiere los nuevos planes!!!</span>
+                <div className='container-padretext-btn'>
+                    <div className='container-btnElegirnos'>
+                        <button className='notransalate btn-text' onClick={handleClickBoton1}>Television por Suscripcion</button>
+                        <button className='notransalate btn-textC' onClick={handleClickBoton2}>Corpotelsa</button>
+                        <button className='notransalate btn-textC' onClick={handleClickBoton3}>planes</button>
+                    </div>
 
-                    <p>La Tárifa varía de acuerdo al estrato y plan deseado.</p>
+
+                    {showText && mostrarTexto1 && <div className='mostrar-texto'><h2 className='notransalate subtitulo'>Razones Para Estar Con CORPOTELSA</h2><ul>
+                        <li className='chulo'>Cobertura del servicio en cualquier punto.</li><br />
+                        <li className='chulo'>Instalación oportuna de los paquetes de servicios para disfrutarlos inmediatamente.</li><br />
+                        <li className='chulo'>Respaldo del mejor y más capacitado equipo humano para el soporte técnico que garantizan la continuidad y calidad del servicio.</li><br />
+                        <li className='chulo'>Con la fortaleza de diversas plataformas tecnológicas de Nueva Generación (TV, Telefonía IP, Banda ancha inalámbrica) generamos soluciones integrales de telecomunicaciones para los sectores residencial, comercial y empresarial.</li><br />
+                        <li className='chulo'>Brindamos acceso a múltiples servicios de telefonía fija e IP, Televisión por cable e Internet de alta velocidad por medio de Cable Modem y ADSL.</li><br />
+                        <li className='chulo'>Utilización de redes convergentes, en cobre, inalámbrica y HFC (Híbrido fibra óptica y coaxial) con la garantía de conectividad de todos los servicios.</li><br />
+                        <li className='chulo'>Garantía permanente de la conexión sin interrupción de los servicios de telefonía, televisión e internet con la velocidad de transmisión solicitada.</li><br />
+                    </ul>
                     </div>}
+                    {showText1 && mostrarTexto2 && <div className='mostrar-texto'>Qué esperas para vivir una nueva experiencia en entretenimiento?</div>}
+                    {showText2 && mostrarTexto3 && <div className='mostrar-texto'> <h5>Planes</h5>
+                        <p>Elige el plan que se ajuste a tus necesidades y accede a la mejor programación con <span>CORPOTELSA.</span></p>
+
+                        <p>Servicio de internet operado por <span>SENERGITEL</span></p>
+
+                        <span>Llama ya al +57 (300) 317-2840 y adquiere los nuevos planes!!!</span>
+
+                        <p>La Tárifa varía de acuerdo al estrato y plan deseado.</p>
+                    </div>}
+                </div>
+
+
+
+                <br /><br /><br />
             </div>
-
-
-
-<br /><br /><br />
-        </div>
         </div>
     );
 }

@@ -84,7 +84,7 @@ const Contactos = () => {
                     <i class='bx bx-copyright' ></i>
                    
 
-                    <b> <span className=' NRojo'>N</span>etworld De Colombia.</b>
+                    <b className='notranslate'> <span className='notranslate NRojo'>N</span>etworld De Colombia.</b>
 
                     <p className='txt'>Todos los derechos Reservados.</p>
                 </div>
