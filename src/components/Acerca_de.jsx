@@ -43,8 +43,10 @@ const Acerca_de = () => {
 
             <h1 id='acerca' className='notranslate titulo' >Acerca De Networld Colombia S.A.S</h1> 
             <div className='contenedor-padre-acerca'>
-                <img src='/img/logo.jpeg' alt='' className='img-acerca'/>
+                
+                <img src='/img/logo.jpeg' alt='' className='img-acerca' />
                
+                
                 <div className='text-acerca'>
                     <h5  className='notranslate tituloGeneral'><span className='span-N'>N</span>ETWORLD DE COLOMBIA S.A.S</h5><br />
                     <p>Somos una empresa magangueleña dedicada a brindar soluciones en redes de telecomunicaciones e información.</p>

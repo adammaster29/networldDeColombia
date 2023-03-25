@@ -80,7 +80,7 @@ const Equipo = () => {
                     <p className='texto-ocupacion'>ocupacion</p>
                 </div>
 
-            </div >
+            </div ><br /><br />
 
 
 

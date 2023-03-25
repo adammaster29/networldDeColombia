@@ -29,6 +29,7 @@ body {
   --blancoTransparente:rgba(255, 255, 255, 0.301);
   --dorado: #755d15;
   --verde:rgb(5, 192, 5);
+  --fondoVector:url('/img/fondoVector.jpg')
 }
 
 /*navegacion*/
@@ -161,7 +162,6 @@ font-weight: 800;
 }
 
 .btnB {
-  border: 1px solid #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,7 +188,6 @@ font-weight: 800;
 
 .btn {
   width: 100%;
-  border: 1px solid #000;
   display: flex;
   justify-content: center;
 }
@@ -224,18 +223,24 @@ font-weight: 800;
   margin-top: 4rem;
 }
 .containerAcerca {
-  background-color: var(--blanco);
+  background-image: var(--fondoVector);
+  background-size: cover;
+  background-position: center;
+background-repeat: no-repeat;
   margin-top: -4rem;
+  
+
 }
 .img-acerca {
   width: 40%;
+  height: 300px;
   margin-bottom: auto;
   height: 200px;
-  border: 1px solid #000;
+  
 }
 .text-acerca {
   width: 50%;
-  border: 1px solid #000;
+/* box-shadow: 2px 2px 2px var(--gris), -2px -2px 2px var(--azulOpaco); */
 }
 .titulo {
   text-align: center;
@@ -381,7 +386,9 @@ position: relative;
   margin-top: 3rem;
 }
 .container-Servicios {
-  background-color: var(--blanco);
+ background-image: var(--fondoVector);
+  background-size: cover;
+  background-position: center;
   margin-top: -4rem;
 }
 .subtituloServicios {
@@ -421,7 +428,7 @@ position: relative;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  border: 1px solid #20ca0a;
+  
 }
 
 .circular-progress {
@@ -448,7 +455,7 @@ position: relative;
   border-radius: 50%;
   clip: rect(0, 100px, 100px, 40px);
   background-color: var(--verde);
-  border: 1px solid #ffffff;
+  border: 1px solid var(--blanco);
 }
 
 .circular-progress-text {
@@ -458,7 +465,7 @@ position: relative;
   transform: translate(-50%, -50%);
   font-size: 16px;
   font-weight:900;
-  color: #ffffff;
+  color: var(--blanco);
 }
 
 
@@ -470,11 +477,9 @@ position: relative;
   flex-direction: row;
   justify-content: space-around;
   background: var(--blanco);
-  border: 1px solid #000;
   height: auto;
 }
 .container-padretext-btn {
-  border: 1px solid #5fab07;
   width: 55%;
 }
 .container-all {
@@ -486,9 +491,9 @@ position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: 1px solid #9a1818;
   width: 100%;
   gap: 2px;
+  
 }
 .btn-text {
   width: 210px;
@@ -538,12 +543,9 @@ ul .chulo:before {
 }
 .hijo-padre {
   width: 45%;
-  border: 1px solid #000;
+ 
 }
-.textoizq-netbtn {
-    border: 1px solid #e01010;
-   
-}
+
 
 .img-hijoPadre{
 width: 100%;
@@ -566,7 +568,7 @@ color: var(--gris);
     width: 100%;
     height: 200px;
     margin: 0 auto;
-    border: 1px solid #000;
+    
 }
 
 /*Subscribete*/
@@ -583,7 +585,6 @@ background-color: var(--negrotransparente);
     flex-direction: column;
     justify-content: center;
     text-align: center;
-border: 1px solid #ffffff;
 width: 720px;
 font-family: 'Raleway', sans-serif; 
 }
@@ -621,13 +622,12 @@ font-weight: 900;
 /*Equipo cards*/
 .padre-Equipo{
   background-color: var(--blanco);
-  border: 1px solid #910e0e;
   height: auto;
   overflow: hidden;
   }
 
 .container-cards{
-  border: 1px solid #0b9128;
+
     display: flex;
   flex-direction: row;
     gap: 1rem;
@@ -679,7 +679,7 @@ z-index: 2;
     height: 250px;
     z-index: 1;
     position: relative;
-    /* background-image: url('/img/jaiderr.png'); */
+    background-image: url('https://hireline.io/blog/wp-content/uploads/2022/06/programador-autodidacta-950x500.jpg');
 background-position: center;
 background-size: cover;
 border-radius: 10px 10px 0 0 ;
@@ -690,7 +690,7 @@ overflow: hidden;
     height: 250px;
     z-index: 1;
     position: relative;
-    /* background-image: url('/img/eiber.png'); */
+    background-image: url('https://watermark.lovepik.com/photo/20211201/large/lovepik-programmer-image-picture_501304307.jpg');
 background-position: center;
 background-size: cover;
 border-radius: 10px 10px 0 0 ;
@@ -702,7 +702,7 @@ overflow: hidden;
   height: 250px;
   z-index: 1;
   position: relative;
-  /* background-image: url('/img/william.jpg'); */
+  background-image: url('https://watermark.lovepik.com/photo/20211208/large/lovepik-programmer-image-picture_501623543.jpg');
 background-position: center;
 background-size: cover;
 border-radius: 10px 10px 0 0 ;
@@ -713,7 +713,7 @@ overflow: hidden;
   height: 250px;
   z-index: 1;
   position: relative;
-  /* background-image: url('/img/jhon.jpg'); */
+  background-image: url('https://st2.depositphotos.com/1930953/10983/i/950/depositphotos_109834716-stock-photo-young-asian-businessman-working-in.jpg');
 background-position: center;
 background-size: cover;
 border-radius: 10px 10px 0 0 ;
@@ -760,7 +760,6 @@ justify-content: center;
 margin-top: -49px;
 }
 .img-portada{
-  border: 1px solid #000;
   width: 50%;
   background:url('/img/portada-equipo.png');
   background-position: center;
@@ -769,7 +768,6 @@ margin-top: -49px;
   height: 250px;
 }
 .container-contactanos{
-  border: 1px solid #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -807,7 +805,7 @@ margin-top: -49px;
 /* portafolio */
 
 .todos{
-  border: 1px solid #000;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -819,7 +817,6 @@ gap: 0.5rem;
 
 }
 .img-1{
-  border: 1px solid #000;
   width: 300px;
   height: 200px;
   background-image: url();
@@ -855,7 +852,7 @@ transform: translateY(0.5em);
 
 /*img 2*/
 .img-2{
-  border: 1px solid #000;
+ 
   width: 300px;
   height: 200px;
 position: relative;
@@ -889,7 +886,6 @@ transform: translateY(0.5em);
 
 /*img 3*/
 .img-3{
-  border: 1px solid #000;
   width: 300px;
   height: 200px;
 position: relative;
@@ -923,7 +919,6 @@ transform: translateY(0.5em);
 
 /*img 4*/
 .img-4{
-  border: 1px solid #000;
   width: 300px;
   height: 200px;
 position: relative;
@@ -957,7 +952,6 @@ transform: translateY(0.5em);
 
 /*img 5*/
 .img-5{
-  border: 1px solid #000;
   width: 300px;
   height: 200px;
 position: relative;
@@ -991,7 +985,6 @@ transform: translateY(0.5em);
 
 /*img 6*/
 .img-6{
-  border: 1px solid #000;
   width: 300px;
   height: 200px;
 position: relative;
@@ -1338,7 +1331,7 @@ span{
 .containerPadreCajaBox{
   display: flex;
   justify-content: center;
-border: 1px solid #000;
+
 background: #c9e7eb23;
 }
 .cajaBox{
@@ -1349,7 +1342,7 @@ margin-top: 5rem;
 
 /*derechos reservados*/
 .ContainerDerechosReservados{
-  border: 1px solid #000;
+ 
   display: flex;
   justify-content: center;
 height:50px;

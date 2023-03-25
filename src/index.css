@@ -48,7 +48,6 @@
 /*acerca*/
 
 .contenedor-padre-acerca{
-border: 1px solid #000;
 flex-direction: column;
 
 }
@@ -72,11 +71,9 @@ height: 300px;
 .padre-porqueElegirnos {
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #aa1010;
 }
 .hijo-padre {
   width: 100%;
-  border: 1px solid #a80f0f;
 }
 .img-hijoPadre{
 width: 100%;
@@ -84,7 +81,7 @@ height: 400px;
 }
 .container-padretext-btn{
   width: 100%;
-  border: 1px solid #43b434;
+ 
 }
 
 /*subscribete*/
@@ -118,7 +115,6 @@ font-weight: 700;}
 .containerPadreCards{
   flex-wrap: wrap;
   height: auto;
-  border: 1px solid #000;
 }
   .containerCard{
     width: 250px;
@@ -126,7 +122,6 @@ font-weight: 700;}
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid #54ce0d;
     z-index: none;
   }
 
@@ -166,12 +161,10 @@ height: auto;
 
 .containerPadreCajaBox{
 flex-direction: column;
-border: 1px solid #000;
 
 }
 .cajaBox{
   width: 350px;
-border: 1px solid #000;
 margin: 0 auto;
 text-align: center;
 padding: 5px;
@@ -225,12 +218,6 @@ width: 95%;
   padding: 5px;
 }
 
-/*barra de progreso*/
-
-
-
-
-
 /*Porque elegirnos*/
 .container-btnElegirnos {
   flex-direction: column;
@@ -244,7 +231,6 @@ width: 95%;
 
 .container-padretext-btn{
   width: 100%;
-  border: 1px solid #43b434;
 }
 
 
@@ -276,7 +262,6 @@ tr{
     width: 300px;
     height: 400px;
   
-    border: 1px solid #54ce0d;
     
   }
 
@@ -352,7 +337,6 @@ width: 90%;
 
 .container-padretext-btn{
   width: 100%;
-  border: 1px solid #43b434;
 }
 
 
@@ -383,8 +367,6 @@ tr{
   .containerCard{
     width: 300px;
     height: 400px;
-  
-    border: 1px solid #54ce0d;
     
   }
 
